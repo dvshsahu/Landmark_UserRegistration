@@ -1,0 +1,25 @@
+.submit-btn, .nav-btn{
+        display: flex;
+        justify-content: center;
+}
+@media only screen and (min-width: 900px) {
+    .sticky-bottom {
+        position: fixed;
+        bottom: 5%;
+        left: 44%;
+    }
+  }
+
+.navbar {
+    position: absolute;
+    text-align: center;
+}
+a.navbar-brand img {
+    float: left;
+    max-height: 50px;
+}
+.link-style,.link-style:hover, .link-style:visited  {
+    color: white;
+    text-decoration: none;
+}
+
